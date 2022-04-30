@@ -2,5 +2,10 @@
   "name": "tdd",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {}
 }
