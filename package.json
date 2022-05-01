@@ -4,8 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@swc/core": "^1.2.174",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.4.1",
     "@types/node": "^17.0.30",
+    "jest": "^28.0.3",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  }
 }

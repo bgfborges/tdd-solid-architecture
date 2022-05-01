@@ -11,6 +11,10 @@ export class Student extends Entity<StudentProps>{
         super(props, id);
     }
 
+    get id(){
+        return this._id;
+    }
+
     static create(props: StudentProps, id?: string){
         
         const student = new Student(props, id);

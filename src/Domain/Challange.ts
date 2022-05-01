@@ -11,6 +11,10 @@ export class Challange extends Entity<ChallangeProps> {
         super(props, id);
     }
 
+    get id(){
+        return this._id;
+    }
+
     static create(props: ChallangeProps, id?: string){
 
         const challange = new Challange(props, id);
